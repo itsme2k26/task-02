@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
+
+header {
+    margin-top: 60px;
+}
+
+nav {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    font-size: 800;
+    font-style: italic;
+    color: #E6533C;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+    color: white;
+}
+
+nav li {
+    list-style: none;
+    padding: 8px 20px;
+}
+.right-nav{
+    border: 1px solid rgba(255, 255, 255, 0.521);
+    border-radius: 39px;
+    padding: 5px;
+    
+}
+
+nav .home {
+    background-color: #E6533C;
+    font-size: 600;
+    border-radius: 45px;
+}
+
+.responds {
+    display: none;
+}
+
+/* banner-section */
+
+.banner-section {
+    /* border: 1px solid; */
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-content h1 {
+    max-width: 520px;
+    font-size: 78px;
+    line-height: 125%;
+    margin-top: 115px;
+    margin-bottom: 28px;
+}
+
+.banner-content p {
+    max-width: 520px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 28px;
+    height: 48px;
+}
+
+/* button */
+.btn-container{
+    display: flex;
+    gap: 20px;
+    /* justify-content: center; */
+}
+.btn-1{
+    max-width: 224px;
+    background-color: #E6533C;
+    padding: 16px 45px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: 600;
+}
+.btn-2{
+    max-width: 224px;
+    background: transparent;
+    padding: 16px 45px;
+    border-radius: 30px;
+    color: white;
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: 600;
+}
+.banner-image{
+    margin-top: 32px;
+    position: relative;
+}
+
+.twist{
+    background: rgba(128, 128, 128, 0.288);
+    position: absolute;
+    border-radius: 10px;
+    padding: 15px;
+    right: -80px;
+    top: 170px;
+}
+.ball{
+    background-color: #E6533C;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.twist-2{
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    background: rgba(128, 128, 128, 0.288);
+    border-radius: 10px;
+    padding: 20px;
+    left: -100px;
+    top: 450px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:575px) {
+    .list {
+        display: none;
+    }
+
+    .responds {
+        display: block;
+        margin-right: 10px;
+    }
+    .banner-section{
+        flex-direction: column;
+    }
+    .btn-container{
+        justify-content: center;
+    }
+    .twist-2{
+        left: 8px;
+        top: 280px;
+    }
+    .twist{
+        right: 30px;
+        top: 60px;
+    }
+    
+}
