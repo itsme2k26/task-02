@@ -142,9 +142,12 @@ nav .home {
 /* habits section */
 .habits{
     max-width:  1100px;
-    margin: 0 auto;
-    
+    margin: 0 auto;    
 }
+.habits{
+    margin-bottom: 100px;
+}
+
 .top{
     margin-top: 100px;
     
@@ -232,6 +235,78 @@ nav .home {
 
 
 
+/* footer */
+footer{
+    /* max-width: 1400px; */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgba(0, 0, 0, 0.2);
+    /* margin: 0 auto; */
+}
+.footer-container{
+    display: flex;
+    max-width: 1100px;
+    margin: 0  auto;
+    justify-content: space-between;
+}
+footer .f-1{
+    /* border: 1px solid red; */
+    width: 445px;
+    height: 250px;
+}
+footer .f-2{
+    /* border: 1px solid greenyellow; */
+    width: 185px;
+    height: 250px;
+}
+.f-2, .f-3 h3{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 125%;
+    margin-bottom: 40px;
+}
+.f-2,  h5{
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+footer .f-3{
+    /* border: 1px solid ; */
+}
+.f-1-title{
+    font-size: 75px;
+    font-weight: 800;
+    color: #E6533C;
+    font-style: italic;
+    margin-bottom: 30px;
+    
+}
+
+.foot-c1{
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+.copy-right{
+    max-width: 1100px;
+    border-top: 1px solid;
+    margin: 0 auto;
+}
+.copy-right{
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 30px;
+}
+.copy-right small{
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 5px;
+}
+
+
+
+
 
 
 
@@ -252,7 +327,8 @@ nav .home {
     }
     .banner-section,
     .bottom,
-    .run{
+    .run,
+    .footer-container{
         flex-direction: column;
     }
     .btn-container{
@@ -273,5 +349,8 @@ nav .home {
         width: 350px;
         align-items: center;
         margin-left: 60px;
+    }
+    .footer-container{
+        margin-left: 30px;
     }
 }
