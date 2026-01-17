@@ -200,18 +200,15 @@ nav .home {
     align-items: center;
     gap: 30px;
 }
-.run{
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
+
 .run-img img{
     width: 100%;
     border-radius: 20px;
 }
 .run-img{
-    max-width: 370px;
     width: 100%;
-   
+    max-width: 370px;
+    
 }
 .run-heading{
     font-size: 48px;
