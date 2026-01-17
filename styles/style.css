@@ -139,8 +139,57 @@ nav .home {
     left: -100px;
     top: 450px;
 }
+/* habits section */
+.habits{
+    max-width:  1100px;
+    margin: 0 auto;
+    
+}
+.top{
+    margin-top: 100px;
+    
+}
+.habits h2,p{
+    text-align: center;
+}
+.habits h2{
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+.habits .top p{
+    margin-bottom: 60px;
+}
 
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 10px;
+}
+.card{
+    width: 230px;
+    height: 280px;
+    border: 1px solid;
 
+}
+.card img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+.card h4{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+.card-img{
+    margin: 0 auto;
+}
+.c-img{
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
 
 
 
@@ -164,7 +213,8 @@ nav .home {
         display: block;
         margin-right: 10px;
     }
-    .banner-section{
+    .banner-section,
+    .bottom{
         flex-direction: column;
     }
     .btn-container{
