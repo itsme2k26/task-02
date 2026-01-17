@@ -149,7 +149,7 @@ nav .home {
     margin-top: 100px;
     
 }
-.habits h2,p{
+.habits  h2,p{
     text-align: center;
 }
 .habits h2{
@@ -183,13 +183,52 @@ nav .home {
     font-size: 18px;
     margin-bottom: 7px;
 }
-.card-img{
-    margin: 0 auto;
-}
 .c-img{
-    margin-left: 20px;
+    margin-left: 24px;
     margin-bottom: 30px;
 }
+
+/* Run Extra section */
+.run{
+    border: 1px solid;
+    background-color: #222222;
+    max-width: 1100px;
+    height: 371px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+}
+.run{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.run-img img{
+    width: 100%;
+    border-radius: 20px;
+}
+.run-img{
+    max-width: 370px;
+   
+}
+.run-heading{
+    font-size: 48px;
+    line-height: 120%;
+    margin-bottom: 15px;
+}
+.run-disc{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.3;
+    width: 443px;
+    
+}
+.join-btn{
+    margin-top: 34px;
+}
+
+
 
 
 
@@ -214,7 +253,8 @@ nav .home {
         margin-right: 10px;
     }
     .banner-section,
-    .bottom{
+    .bottom,
+    .run{
         flex-direction: column;
     }
     .btn-container{
@@ -228,5 +268,12 @@ nav .home {
         right: 30px;
         top: 60px;
     }
-    
+    .run{
+        height: 531px;
+    }
+    .btn-3{
+        width: 350px;
+        align-items: center;
+        margin-left: 60px;
+    }
 }
